@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paytabs.PaymentProcessor", "Paytabs.PaymentProcessor\Paytabs.PaymentProcessor.csproj", "{5BC05EDF-FD85-435B-B04B-2865F2481002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.PaymentProcessor", "UI.PaymentProcessor\UI.PaymentProcessor.csproj", "{EC94F262-15DD-44CE-90C8-FF378C19E7C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BC05EDF-FD85-435B-B04B-2865F2481002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC05EDF-FD85-435B-B04B-2865F2481002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC05EDF-FD85-435B-B04B-2865F2481002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC05EDF-FD85-435B-B04B-2865F2481002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC94F262-15DD-44CE-90C8-FF378C19E7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC94F262-15DD-44CE-90C8-FF378C19E7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC94F262-15DD-44CE-90C8-FF378C19E7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC94F262-15DD-44CE-90C8-FF378C19E7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ED5F5E1-C7F8-4014-A72E-CFDEFD92877F}
+	EndGlobalSection
+EndGlobal
