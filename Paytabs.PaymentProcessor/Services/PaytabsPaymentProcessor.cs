@@ -19,7 +19,8 @@ public class PaytabsPaymentProcessor : IPaytabsPaymentProcessor
     {
         if (!PaytabsConfiguration.TestMode)
         {
-
+            serverKey = PaytabsConfiguration.LiveServerKey;
+            profileId = PaytabsConfiguration.LiveProfileId;
         }
     }
 
